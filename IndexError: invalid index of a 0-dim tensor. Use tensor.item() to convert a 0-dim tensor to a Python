@@ -1,0 +1,13 @@
+IndexError: invalid index of a 0-dim tensor. Use tensor.item() to convert a 0-dim tensor to a Python
+报错：
+
+running_loss += loss.data[0]
+Traceback (most recent call last):
+  File "/B/Practice/csdncifar-10.py", line 98, in <module>
+    running_loss += loss.data[0]
+IndexError: invalid index of a 0-dim tensor. Use tensor.item() to convert a 0-dim tensor to a Python number
+
+
+更改：
+
+running_loss += loss.item ()

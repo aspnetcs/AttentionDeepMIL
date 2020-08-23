@@ -1,0 +1,4 @@
+不使用pip3 install torchvision
+而使用 pip install --no-deps torchvision
+
+https://blog.csdn.net/qq_37385726/article/details/81744485
